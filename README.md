@@ -22,6 +22,8 @@ Un ejemplo de esto sería como:
 
     El código de ambos será la estructura original del taller, en este caso. En el se podrá hacer todos los cambios que uno quiera. Esto es principalmente para conservar el ejercicio original. 
 
+Es recomendable que para los ejercicios de práctica (Propios) tengan internamente un archivo bin en el que se guardará el compilado de los ejercicios
+
 ## Reglas 🚨
 - Siempre hacer git pull al usar el Repo para tener todo el material actualizado.
 - Crear una branch si se necesita experimentar una +feature* del repo o realizar algún ejercicio de prueba.
