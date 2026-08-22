@@ -6,12 +6,21 @@ Este repositorio esta creado para poder practicar el lenguaje de C para hacer lo
 El formato del repo será principalmente:
 - Ejercicios de taller.
 - Ejercicios tipo de taller.
-- Ejercicios propios.
+- Ejercicios práctica (o propios, problemas que sean interesantes de realizar).
 
 En cada uno debe haber una estructura tal que:
-- Material original (Estructura del ejercicio/taller, enunciado u otros)
-- Código de Rai
-- Código de Agu
+- Actividad n, con n ∈ N.
+    - Material original (Estructura del ejercicio/taller, enunciado u otros)
+    - Código de Rai
+    - Código de Agu
+
+Un ejemplo de esto sería como:
+- Taller formativo 0:
+    - Estructura original del taller (NO MODIFICAR)
+    - Código de Agu
+    - Código de Rai
+
+    El código de ambos será la estructura original del taller, en este caso. En el se podrá hacer todos los cambios que uno quiera. Esto es principalmente para conservar el ejercicio original. 
 
 ## Reglas 🚨
 - Siempre hacer git pull al usar el Repo para tener todo el material actualizado.
