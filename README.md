@@ -1,6 +1,6 @@
 # Programación en C !
 
-Este repositorio esta creado para poder practicar el lenguaje de C para hacer los talleres del ramo Estructura de datos y algoritmos (IIC2133). Lo ideal es abarcar contenidos del ramo pero también para experimentar.
+Este repositorio esta creado para poder practicar el lenguaje de C para hacer los talleres del ramo Estructura de datos y algoritmos (IIC2133). Lo ideal es abarcar contenidos del ramo pero también para experimentar el funcionamiento del lenguaje.
 
 ## Formato 📍
 El formato del repo será principalmente:
@@ -29,3 +29,4 @@ Es recomendable que para los ejercicios de práctica (Propios) tengan internamen
 - Crear una branch si se necesita experimentar una +feature* del repo o realizar algún ejercicio de prueba.
 - Hacer commits claros.
 - Una vez que se demuestre que se hizo bien el ejercicio o que el algoritmo funciona como deberia, se puede hacer ***merge a main***. 
+
