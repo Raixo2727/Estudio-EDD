@@ -41,7 +41,7 @@ void imprimir_array(int *arr, int n) {
 int main() {
     srand(time(NULL));
 
-    int n = 10;
+    int n = 10 ;
     int array_A[10];
     llenar_aleatorio(array_A, n, 1, 100);
 
