@@ -39,7 +39,7 @@ int * insertion_sort(int * arr_A, int n) {
                 *(arr_B + j + 1) = *(arr_B + j);
                 idx_support = j;
             } else {
-                break;
+                break; 
             }
         }
         *(arr_B + idx_support) = val;
