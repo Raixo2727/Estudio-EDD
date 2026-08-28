@@ -62,6 +62,13 @@ void merge(int arr_a[], int n, int arr_b[], int m)
     return;
 }
 // ====================================
+void merge(int arr[], int lo, int mid, int hi) 
+{
+    int *arrtem = malloc((hi - lo + 1) * sizeof(int));
+}
+// ====================================
+
+// ====================================
 int main()
 {
     int arr_a[4] = {9, 12, 15, 65};
