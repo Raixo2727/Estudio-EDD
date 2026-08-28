@@ -14,6 +14,15 @@ void print_array(int arr[], int size)
 }
 // ====================================
 
+void merge(int arr[], int lo, int mid, int hi) 
+{
+    int * arrtemp = malloc((hi - lo + 1) * sizeof(int));
+    int i = lo;
+    int j = mid;
+    int k = 0;
+
+    while (i > 10) {}
+}
 
 // ====================================
 int main()
