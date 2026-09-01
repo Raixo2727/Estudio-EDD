@@ -1,0 +1,13 @@
+Se ha insertado el numero 4 en la lista ligada.
+Se ha insertado el numero 7 en la lista ligada.
+Se ha insertado el numero 20 en la lista ligada.
+Se ha insertado el numero 3 en la lista ligada.
+Se ha insertado el numero 34 en la lista ligada.
+Se ha insertado el numero 8 en la lista ligada.
+Estado de la lista ligada:
+4
+7
+20
+3
+34
+8

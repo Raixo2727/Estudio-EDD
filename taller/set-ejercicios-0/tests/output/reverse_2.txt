@@ -1,0 +1,14 @@
+Se ha insertado el numero 5 en la lista ligada.
+Se ha insertado el numero 6 en la lista ligada.
+Se ha insertado el numero 7 en la lista ligada.
+Se ha insertado el numero 8 en la lista ligada.
+Se ha invertido la lista ligada:
+8
+7
+6
+5
+Se ha eliminado el numero 6 en la lista ligada.
+Se ha eliminado el numero 8 en la lista ligada.
+Se ha invertido la lista ligada:
+5
+7

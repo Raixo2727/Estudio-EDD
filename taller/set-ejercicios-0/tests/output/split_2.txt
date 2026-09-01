@@ -1,0 +1,13 @@
+Se ha insertado el numero 1 en la lista ligada.
+Se ha insertado el numero 3 en la lista ligada.
+Se ha insertado el numero 4 en la lista ligada.
+Se ha insertado el numero 9 en la lista ligada.
+Se ha insertado el numero 5 en la lista ligada.
+Se ha realizado el split de la lista ligada.
+Primera lista resultante:
+3
+9
+Segunda lista resultante:
+1
+4
+5

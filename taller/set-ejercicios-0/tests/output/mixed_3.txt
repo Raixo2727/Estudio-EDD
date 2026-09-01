@@ -1,0 +1,53 @@
+Se ha insertado el numero 3 en la lista ligada.
+Se ha insertado el numero 8 en la lista ligada.
+Se ha insertado el numero 9 en la lista ligada.
+Se ha insertado el numero 2 en la lista ligada.
+Se ha insertado el numero 7 en la lista ligada.
+Se ha hecho el shift de 3 posiciones en la lista ligada:
+9
+2
+7
+3
+8
+Se ha hecho el shift de 1 posiciones en la lista ligada:
+8
+9
+2
+7
+3
+Se ha eliminado el numero 3 en la lista ligada.
+No se ha encontrado el numero 5 en la lista ligada.
+Se ha insertado el numero 14 en la lista ligada.
+Se ha insertado el numero 1 en la lista ligada.
+Se ha invertido la lista ligada:
+1
+14
+7
+2
+9
+8
+Se ha hecho el shift de 2 posiciones en la lista ligada:
+9
+8
+1
+14
+7
+2
+Se ha invertido la lista ligada:
+2
+7
+14
+1
+8
+9
+Se ha insertado el numero 3 en la lista ligada.
+Se ha realizado el split de la lista ligada.
+Primera lista resultante:
+7
+1
+9
+Segunda lista resultante:
+2
+14
+8
+3

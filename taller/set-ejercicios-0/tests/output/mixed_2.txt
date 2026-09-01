@@ -1,0 +1,17 @@
+Se ha insertado el numero 3 en la lista ligada.
+Se ha insertado el numero 7 en la lista ligada.
+No se ha encontrado el numero 4 en la lista ligada.
+Se ha invertido la lista ligada:
+7
+3
+Se ha insertado el numero 2 en la lista ligada.
+Se ha invertido la lista ligada:
+2
+3
+7
+Se ha realizado el split de la lista ligada.
+Primera lista resultante:
+3
+Segunda lista resultante:
+2
+7
