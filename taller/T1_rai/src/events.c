@@ -1,6 +1,7 @@
 #include "events.h"
 #include "libedd/AltTwoPartition.h"
 
+// Taller 1 completado
 void TwoPartition(
     int *array, 
     int size, 
