@@ -1,0 +1,120 @@
+Resultado de la ejecucion de TwoPartition:
+Pivot1: 10
+Pivot2: 11
+Left: 4 7
+Middle:
+Right:
+Resultado de la ejecucion de TwoPartition:
+Pivot1: 8
+Pivot2: 9
+Left: 1 6 0 0 6
+Middle:
+Right: 12 18 11 19 13
+Resultado de la ejecucion de TwoPartition:
+Pivot1: 0
+Pivot2: 18
+Left:
+Middle: 1
+Right:
+Resultado de la ejecucion de TwoPartition:
+Pivot1: 8
+Pivot2: 13
+Left: 5 4
+Middle:
+Right: 15 17
+Resultado de la ejecucion de TwoPartition:
+Pivot1: 3
+Pivot2: 19
+Left: 1 1 2
+Middle: 12 5 6 4 18 8 11 16
+Right: 20
+Resultado de la ejecucion de TwoPartition:
+Pivot1: 4
+Pivot2: 15
+Left:
+Middle: 11 9 8 12
+Right:
+Resultado de la ejecucion de TwoPartition:
+Pivot1: 8
+Pivot2: 17
+Left: 6 6
+Middle: 10 15 9 13
+Right:
+Resultado de la ejecucion de TwoPartition:
+Pivot1: 9
+Pivot2: 19
+Left: 1 3 3 0 7
+Middle: 12 15 16 9 12 14 15
+Right:
+Resultado de la ejecucion de TwoPartition:
+Pivot1: 8
+Pivot2: 13
+Left: 3 0 1 1 4 0 5 2 0
+Middle: 9
+Right: 15 16 19 18 19 15
+Resultado de la ejecucion de TwoPartition:
+Pivot1: 3
+Pivot2: 20
+Left: 2 1 2 2 1 1
+Middle: 15 13 12 8 17 5
+Right:
+Resultado de la ejecucion de TwoPartition:
+Pivot1: 5
+Pivot2: 18
+Left: 2 2 4 0
+Middle: 5 12 16 17 9 18 9 8 18
+Right: 19 19
+Resultado de la ejecucion de TwoPartition:
+Pivot1: 15
+Pivot2: 15
+Left: 11
+Middle: 15
+Right: 18 20
+Resultado de la ejecucion de TwoPartition:
+Pivot1: 6
+Pivot2: 11
+Left:
+Middle: 7
+Right:
+Resultado de la ejecucion de TwoPartition:
+Pivot1: 15
+Pivot2: 20
+Left: 3 6 1 11
+Middle: 18
+Right:
+Resultado de la ejecucion de TwoPartition:
+Pivot1: 3
+Pivot2: 6
+Left:
+Middle:
+Right: 9
+Resultado de la ejecucion de TwoPartition:
+Pivot1: 3
+Pivot2: 10
+Left: 0
+Middle: 7 3
+Right: 16 11 18 15 16
+Resultado de la ejecucion de TwoPartition:
+Pivot1: 9
+Pivot2: 18
+Left: 7 8 6
+Middle: 15 12 13 15 11 16 17
+Right:
+Resultado de la ejecucion de TwoPartition:
+Pivot1: 13
+Pivot2: 18
+Left: 2 7 0 8 3 11 7
+Middle: 17 16 18 17 18 18
+Right: 19 20
+Resultado de la ejecucion de TwoPartition:
+Pivot1: 12
+Pivot2: 16
+Left: 6 11 6 8 9 10 4 1 0 4
+Middle: 14
+Right: 20
+Resultado de la ejecucion de TwoPartition:
+Pivot1: 15
+Pivot2: 16
+Left: 6 0 0 8 2 3 4 4 11 1 2 10 13
+Middle: 15 16 15
+Right: 19 18

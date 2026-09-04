@@ -1,0 +1,40 @@
+Resultado de la ejecucion de Rebuild:
+0 3 7 5 2 14 14 20 14 18 15 18 20
+Resultado de la ejecucion de Rebuild:
+4 8 9 10 11 8 11 14 16 17 14
+Resultado de la ejecucion de Rebuild:
+20 20 20 20
+Resultado de la ejecucion de Rebuild:
+1 2 6 2 7 8 9 9 11
+Resultado de la ejecucion de Rebuild:
+8 1 2 13 14 20 18 16 16
+Resultado de la ejecucion de Rebuild:
+0 6 4 8 8 8 15
+Resultado de la ejecucion de Rebuild:
+16 16 17 20
+Resultado de la ejecucion de Rebuild:
+8 7 19 20
+Resultado de la ejecucion de Rebuild:
+2 8 5 0 9 8 18 18 20 19 20
+Resultado de la ejecucion de Rebuild:
+7 14 6 16 16 17 17 17 17 17 19 18
+Resultado de la ejecucion de Rebuild:
+3 0 0 4 6 16 17
+Resultado de la ejecucion de Rebuild:
+9 19 19 20
+Resultado de la ejecucion de Rebuild:
+8 9 12 17 12
+Resultado de la ejecucion de Rebuild:
+5 14 17 20 18
+Resultado de la ejecucion de Rebuild:
+12 12 7 13 13 16 14 14 16 20 18 19 19
+Resultado de la ejecucion de Rebuild:
+14 3 4 11 12 18 20 20
+Resultado de la ejecucion de Rebuild:
+2 3 7 7 8 8 8 11 11 8 8 11 19
+Resultado de la ejecucion de Rebuild:
+0 0 0 3 4 4 4 3 3 4 15 5 8 15 12 14
+Resultado de la ejecucion de Rebuild:
+0 14 16 15 15 14 16 16 16 20 18
+Resultado de la ejecucion de Rebuild:
+0 2 3 11 14 14 16 12 18
