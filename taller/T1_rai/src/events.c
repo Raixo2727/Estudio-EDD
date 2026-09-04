@@ -79,4 +79,29 @@ void rebuild(
 void quicksort(int *array, int size)
 {    
     //TODO: PREGUNTA 2.2 
+
+    if (size <= 1) {
+        return;
+    }
+
+    int* left = calloc(size, sizeof(int));
+    int* middle = calloc(size, sizeof(int));
+    int* right = calloc(size, sizeof(int));
+
+    int pivot1;
+    int pivot2;
+
+    int left_size;
+    int middle_size;
+    int right_size;
+
+    TwoPartition(array, size, &pivot1, &pivot2, left, &left_size, middle, &middle_size, right, &right_size);
+    quicksort(left, left_size);
+    quicksort(middle, middle_size);
+    quicksort(right, right_size);
+
+    rebuild(array, left, left_size, pivot1, middle, middle_size, pivot2, right, right_size);
+    free(left);
+    free(middle);
+    free(right);
 }
