@@ -53,15 +53,90 @@ void sll_enter(Sll *sll, int k, FILE *output_file) {
 }
 
 void sll_delete(Sll *sll, int k, FILE *output_file) {
-    // TODO
+    SllNode* nodo_actual = sll -> head;
+    SllNode* nodo_anterior = NULL;
+
+    while (nodo_actual != NULL && nodo_actual -> data != k ) {
+        nodo_anterior = nodo_actual;
+        nodo_actual = nodo_actual -> next;
+    }
+
+    if (nodo_actual == NULL) {
+        fprintf(output_file, "No se ha encontrado el numero %d en la lista ligada.\n", k);
+    } else if(nodo_anterior == NULL) {
+        sll -> head = nodo_actual -> next;
+        free(nodo_actual);
+        fprintf(output_file, "Se ha eliminado el numero %d en la lista ligada.\n", k);
+    } else {
+        nodo_anterior -> next = nodo_actual -> next;
+        free(nodo_actual);
+        fprintf(output_file, "Se ha eliminado el numero %d en la lista ligada.\n", k);
+    }
 }
 
 void sll_reverse(Sll *sll, FILE *output_file) {
-    // TODO
+    SllNode* nodo_anterior = NULL;
+    SllNode* nodo_actual = sll -> head;
+    SllNode* nodo_posterior = NULL;
+
+    sll -> tail = nodo_actual;
+    while (nodo_actual != NULL) {
+        nodo_posterior = nodo_actual -> next;
+        nodo_actual -> next = nodo_anterior;
+
+        nodo_anterior = nodo_actual;
+        nodo_actual = nodo_posterior;
+    }
+    sll -> head = nodo_anterior;
+
+    fprintf(output_file, "Se ha invertido la lista ligada:\n");
+    SllNode* curr = sll ->head;
+    while (curr != NULL) {
+        fprintf(output_file, "%d\n", curr->data);
+        curr = curr -> next;
+    }
 }
 
 void sll_shift(Sll *sll, int k, FILE *output_file) {
-    // TODO
+    if (sll == NULL || sll->head == NULL) {
+        return;
+    }
+
+    // Calculamos el tamaño real manualmente
+    int sll_size = 0;
+    SllNode* count_node = sll->head;
+    while (count_node != NULL) {
+        sll_size++;
+        count_node = count_node->next;
+    }
+
+    int k_efectivo = k % sll_size;
+
+    if (sll_size > 1 && k_efectivo > 0) {
+        SllNode* curr = sll->head;
+        for (int i = 0; i < (sll_size - k_efectivo - 1); i++) {
+            curr = curr->next;
+        }
+
+        SllNode* nueva_cabeza = curr->next;
+        curr->next = NULL;
+
+        SllNode* tail_antigua = nueva_cabeza;
+        while (tail_antigua->next != NULL) {
+            tail_antigua = tail_antigua->next;
+        }
+
+        tail_antigua->next = sll->head;
+        sll->head = nueva_cabeza;
+        sll->tail = curr;
+    }
+
+    fprintf(output_file, "Se ha hecho el shift de %d posiciones en la lista ligada:\n", k);
+    SllNode* iter = sll->head;
+    while (iter != NULL) {
+        fprintf(output_file, "%d\n", iter->data);
+        iter = iter->next;
+    }
 }
 
 void sll_split(Sll *sll, FILE *output_file) {

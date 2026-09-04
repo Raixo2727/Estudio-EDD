@@ -1,0 +1,17 @@
+Se ha insertado el numero 4 en la lista ligada.
+Se ha insertado el numero 2 en la lista ligada.
+Se ha insertado el numero 0 en la lista ligada.
+Se ha insertado el numero 8 en la lista ligada.
+Se ha insertado el numero 9 en la lista ligada.
+Se ha hecho el shift de 2 posiciones en la lista ligada:
+8
+9
+4
+2
+0
+Se ha hecho el shift de 5 posiciones en la lista ligada:
+8
+9
+4
+2
+0
