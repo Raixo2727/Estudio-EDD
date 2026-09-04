@@ -50,9 +50,30 @@ void rebuild(
 ) 
 {
     //TODO: PREGUNTA 2.1
-    for (int i = 0; i < left_size; i++ ) {
-
+    int pos_array = 0;
+    
+    for (int i = 0; i < left_size; i++) {
+        array[pos_array] = left[i];
+        pos_array++;
     }
+
+    array[pos_array] = pivot1;
+    pos_array++;
+
+    for (int i = 0; i < middle_size; i++) {
+        array[pos_array] = middle[i];
+        pos_array++;
+    }
+
+    array[pos_array] = pivot2;
+    pos_array++;
+
+    for (int i = 0; i < right_size; i++) {
+        array[pos_array] = right[i];
+        pos_array++;
+    }
+    
+
 }
 
 void quicksort(int *array, int size)
