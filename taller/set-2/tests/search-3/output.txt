@@ -1,0 +1,25 @@
+No se ha encontrado el numero 99 en el ABB.
+Se ha insertado el numero 45 en el ABB.
+Se ha insertado el numero 20 en el ABB.
+Se ha insertado el numero 80 en el ABB.
+Se ha insertado el numero 10 en el ABB.
+Bst
+> root : 45
+> size : 4
+> log  : [45]
+         ├─[80]
+         └─[20]
+            └─[10]
+Se ha encontrado el numero 20 en el ABB.
+No se ha encontrado el numero 999 en el ABB.
+Se ha insertado el numero 60 en el ABB.
+Bst
+> root : 45
+> size : 5
+> log  : [45]
+         ├─[80]
+         │  └─[60]
+         └─[20]
+            └─[10]
+Se ha encontrado el numero 60 en el ABB.
+Se ha encontrado el numero 10 en el ABB.

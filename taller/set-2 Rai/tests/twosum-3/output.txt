@@ -1,0 +1,10 @@
+Se encontraron dos numeros que suman 6: 2 y 4.
+No se encontraron numeros que sumen 100.
+No se encontraron numeros que sumen 7.
+No se encontraron numeros que sumen 0.
+Se encontraron dos numeros que suman 30: 10 y 20.
+Se encontraron dos numeros que suman 50: 22 y 28.
+Se encontraron dos numeros que suman 40: 7 y 33.
+No se encontraron numeros que sumen 9.
+Se encontraron dos numeros que suman 42: 11 y 31.
+No se encontraron numeros que sumen 60.

@@ -1,0 +1,53 @@
+Se han ordenado las 6 palabras con DictSort:
+ave
+mar
+pan
+rey
+sol
+sol
+Se han ordenado las 1 palabras con DictSort:
+camino
+Se han ordenado las 8 palabras con DictSort:
+aves
+dado
+gato
+hilo
+kilo
+nube
+peso
+vaso
+Se han ordenado las 3 palabras con DictSort:
+fresa
+limon
+verde
+Se han ordenado las 4 palabras con DictSort:
+caminos
+montana
+pintura
+ventana
+Se han ordenado las 2 palabras con DictSort:
+elefante
+vacacion
+Se han ordenado las 5 palabras con DictSort:
+es
+mi
+tu
+un
+yo
+Se han ordenado las 7 palabras con DictSort:
+ave
+mar
+oso
+pan
+rey
+sol
+uva
+Se han ordenado las 1 palabras con DictSort:
+paz
+Se han ordenado las 6 palabras con DictSort:
+animal
+camino
+manija
+parque
+pintor
+volcan

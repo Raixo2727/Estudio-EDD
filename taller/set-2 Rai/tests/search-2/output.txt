@@ -1,0 +1,15 @@
+Se ha insertado el numero 55 en el ABB.
+Se ha insertado el numero 30 en el ABB.
+Se ha insertado el numero 70 en el ABB.
+Se ha insertado el numero 65 en el ABB.
+Se ha encontrado el numero 65 en el ABB.
+Bst
+> root : 55
+> size : 4
+> log  : [55]
+         ├─[70]
+         │  └─[65]
+         └─[30]
+No se ha encontrado el numero 100 en el ABB.
+Se ha encontrado el numero 30 en el ABB.
+No se ha encontrado el numero 1 en el ABB.

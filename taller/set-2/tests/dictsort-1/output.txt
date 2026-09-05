@@ -1,0 +1,27 @@
+Se han ordenado las 4 palabras con DictSort:
+fresa
+limon
+perro
+verde
+Se han ordenado las 3 palabras con DictSort:
+oso
+rey
+sol
+Se han ordenado las 5 palabras con DictSort:
+aire
+frio
+hoja
+luna
+onda
+Se han ordenado las 2 palabras con DictSort:
+camino
+parque
+Se han ordenado las 4 palabras con DictSort:
+id
+ok
+tu
+yo
+Se han ordenado las 3 palabras con DictSort:
+caminos
+paisaje
+sonrisa

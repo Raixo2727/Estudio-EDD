@@ -1,0 +1,6 @@
+Se encontraron dos numeros que suman 9: 2 y 7.
+Se encontraron dos numeros que suman 15: 6 y 9.
+No se encontraron numeros que sumen 20.
+Se encontraron dos numeros que suman 8: 1 y 7.
+No se encontraron numeros que sumen 5.
+Se encontraron dos numeros que suman 12: 5 y 7.

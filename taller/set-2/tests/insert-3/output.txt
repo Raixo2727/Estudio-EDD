@@ -1,0 +1,23 @@
+Se ha insertado el numero 50 en el ABB.
+Se ha insertado el numero 25 en el ABB.
+Se ha insertado el numero 75 en el ABB.
+Se ha insertado el numero 12 en el ABB.
+Se ha insertado el numero 37 en el ABB.
+Se ha insertado el numero 62 en el ABB.
+Se ha insertado el numero 87 en el ABB.
+Se ha insertado el numero 50 en el ABB.
+Se ha insertado el numero 68 en el ABB.
+Se ha insertado el numero 0 en el ABB.
+Bst
+> root : 50
+> size : 10
+> log  : [50]
+         ├─[75]
+         │  ├─[87]
+         │  └─[62]
+         │     ├─[68]
+         │     └─[50]
+         └─[25]
+            ├─[37]
+            └─[12]
+               └─[0]
