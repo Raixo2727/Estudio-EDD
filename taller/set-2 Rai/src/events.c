@@ -20,17 +20,68 @@
  */
 
 void dictsort(char **words, size_t word_count, size_t word_length, FILE *output_file) {
-    // TODO
+    // TODO Parece que no teiene nada que ver con la ABB
 }
 
 BstNode *bst_search(Bst *bst, int key, FILE *output_file) {
-    // TODO
+    BstNode* curr = bst -> root;
 
-    return NULL;
+    while (curr != NULL && (curr -> key) != key) {
+        if (key < (curr -> key)) {
+            curr = curr -> left;
+        } else {
+            curr = curr -> right;
+        }
+    }
+
+    if (curr == NULL) {
+        fprintf(output_file, "No se ha encontrado el numero %d en el ABB.\n", key);
+        return NULL;
+    }
+
+    fprintf(output_file, "Se ha encontrado el numero %d en el ABB.\n", key);
+    return curr;
 }
 
 void bst_insert(Bst *bst, int key, FILE *output_file) {
-    // TODO
+    BstNode *new_node = calloc(1, sizeof(BstNode));
+    new_node -> key = key;
+    new_node -> parent = NULL;
+    new_node -> left = NULL;
+    new_node -> right = NULL;
+
+    BstNode* curr = bst -> root;
+    BstNode* previous = NULL;
+
+    if (curr == NULL) {
+        bst -> root = new_node;
+        bst -> size++;
+        fprintf(output_file, "Se ha insertado el numero %d en el ABB.\n", key);
+        return;
+    }
+
+    
+    while (curr != NULL) {
+        if ((new_node -> key) < (curr -> key)) {
+            previous = curr;
+            curr = curr -> left;
+        } else {
+            previous = curr;
+            curr = curr -> right;
+        }
+    }
+
+    if ((new_node -> key) < (previous -> key)) {
+        previous -> left = new_node;
+    } else {
+        previous -> right = new_node;
+    }
+    new_node -> parent = previous;
+    bst -> size++;
+    
+    fprintf(output_file, "Se ha insertado el numero %d en el ABB.\n", key);
+
+    return;
 }
 
 void bst_delete(Bst *bst, int key, FILE *output_file) {

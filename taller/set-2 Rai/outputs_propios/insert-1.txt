@@ -1,0 +1,15 @@
+Se ha insertado el numero 42 en el ABB.
+Se ha insertado el numero 17 en el ABB.
+Se ha insertado el numero 23 en el ABB.
+Se ha insertado el numero 60 en el ABB.
+Se ha insertado el numero 15 en el ABB.
+Se ha insertado el numero 90 en el ABB.
+Bst
+> root : 42
+> size : 6
+> log  : [42]
+         ├─[60]
+         │  ├─[90]
+         └─[17]
+            ├─[23]
+            └─[15]

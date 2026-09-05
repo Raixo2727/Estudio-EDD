@@ -1,0 +1,12 @@
+Se ha insertado el numero 20 en el ABB.
+Se ha insertado el numero 40 en el ABB.
+Se ha insertado el numero 10 en el ABB.
+Bst
+> root : 20
+> size : 3
+> log  : [20]
+         ├─[40]
+         └─[10]
+Se ha encontrado el numero 40 en el ABB.
+No se ha encontrado el numero 15 en el ABB.
+Se ha encontrado el numero 20 en el ABB.
