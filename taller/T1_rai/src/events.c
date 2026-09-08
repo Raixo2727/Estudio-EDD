@@ -73,8 +73,6 @@ void rebuild(
         array[pos_array] = right[i];
         pos_array++;
     }
-    
-
 }
 
 void quicksort(int *array, int size)
