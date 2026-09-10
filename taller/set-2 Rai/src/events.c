@@ -86,8 +86,101 @@ void bst_insert(Bst *bst, int key, FILE *output_file) {
 
 void bst_delete(Bst *bst, int key, FILE *output_file) {
     EddError err = EDD_NOERR;
-
     // TODO
+
+    BstNode* find_node = bst -> root;
+    BstNode* parent = NULL;
+    while (find_node != NULL && key != (find_node -> key)) {
+        if (key<(find_node -> key)) {
+            parent = find_node;
+            find_node = find_node -> left;
+        } else {
+            parent = find_node;
+            find_node = find_node -> right;
+        }
+    }
+
+    if (find_node == NULL) {
+        fprintf(output_file, "No se pudo eliminar el numero %d en el ABB.\n", key);
+        return;
+    }
+
+    // EL nodo a eliminar no tiene hijos
+    if (find_node -> left == NULL && find_node -> right == NULL) {
+        if (parent == NULL) {
+            bst -> root = NULL;
+        }
+        else if (parent -> left == find_node) {
+            parent -> left = NULL;
+        } else {
+            parent -> right = NULL;
+        }
+
+        bst_node_destroy(&err, find_node);
+        bst->size--;
+        fprintf(output_file, "Se ha eliminado el numero %d en el ABB.\n", key);
+        return;
+    }
+
+    // El nodo tiene 1 hijo
+    if (find_node -> right == NULL) {
+        if (parent == NULL) {
+            bst -> root = find_node -> left;
+        } else if (parent -> left == find_node) {
+            parent -> left = find_node->left;
+        } else {
+            parent -> right = find_node -> left;
+        }
+
+        find_node->left->parent = parent;
+
+        bst_node_destroy(&err, find_node);
+        bst->size--;
+        fprintf(output_file, "Se ha eliminado el numero %d en el ABB.\n", key);
+        return;
+
+    } else if (find_node -> left == NULL) {
+        if (parent == NULL) {
+            bst -> root = find_node -> right;
+        } else if (parent -> left == find_node) {
+            parent -> left = find_node->right;
+        } else {
+            parent -> right = find_node -> right;
+        }
+
+        find_node->right->parent = parent;
+
+        bst_node_destroy(&err, find_node);
+        bst->size--;
+        fprintf(output_file, "Se ha eliminado el numero %d en el ABB.\n", key);
+        return;
+    }
+
+    // El nodo tiene 2 hijos
+    BstNode* replace = find_node -> right;
+    BstNode* replace_parent = find_node;
+    while(replace -> left != NULL) {
+        replace_parent = replace;
+        replace = replace -> left;
+    }
+
+    find_node -> key = replace -> key;
+
+    if (replace_parent->left == replace) {
+        replace_parent->left = replace->right;
+    } else {
+        replace_parent->right = replace->right;
+    }
+    
+    if (replace->right != NULL) {
+        replace->right->parent = replace_parent;
+    }
+
+    // Destruimos el nodo sustituto (no find_node)
+    bst_node_destroy(&err, replace);
+    bst->size--;
+    fprintf(output_file, "Se ha eliminado el numero %d en el ABB.\n", key);
+    return;
 }
 
 void bst_two_sum(Bst *bst, int sum, FILE *output_file) {
