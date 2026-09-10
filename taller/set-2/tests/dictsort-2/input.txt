@@ -1,0 +1,38 @@
+8
+DICTSORT 1 5
+libro
+DICTSORT 3 4
+pato
+pato
+kilo
+DICTSORT 4 3
+pan
+rey
+ave
+mar
+DICTSORT 5 6
+volcan
+animal
+pintor
+camino
+parque
+DICTSORT 2 2
+mi
+tu
+DICTSORT 6 4
+vaso
+gato
+nube
+hilo
+dado
+peso
+DICTSORT 3 7
+montana
+pintura
+ventana
+DICTSORT 5 1
+d
+a
+c
+b
+e

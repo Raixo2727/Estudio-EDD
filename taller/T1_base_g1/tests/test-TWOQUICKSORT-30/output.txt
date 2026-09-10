@@ -1,0 +1,40 @@
+Arreglo ordenado con TwoQuickSort:
+9 9 10 10 11 12 13 19
+Arreglo ordenado con TwoQuickSort:
+0 4 4 8 12 13 14 16 17 19 20 20
+Arreglo ordenado con TwoQuickSort:
+0 1 2 3 3 6 9 11 14 18 19
+Arreglo ordenado con TwoQuickSort:
+0 1 2 2 2 11 16 19
+Arreglo ordenado con TwoQuickSort:
+1 2 6 8 8 10 10 12 16 18
+Arreglo ordenado con TwoQuickSort:
+2 5 6 8 9 9 9 11 13 15 15 17 18 20 20
+Arreglo ordenado con TwoQuickSort:
+1 7
+Arreglo ordenado con TwoQuickSort:
+16 17
+Arreglo ordenado con TwoQuickSort:
+4 4 5 5 6 7 9 9 10 10 12 12 13 18 19 19
+Arreglo ordenado con TwoQuickSort:
+1 2 3 3 3 6 6 8 8 9 11 12 14 15 15 20
+Arreglo ordenado con TwoQuickSort:
+0 1 4 4 6 7 12 12 12 15 16 16 16 17
+Arreglo ordenado con TwoQuickSort:
+2 2 3 4 6 7 8 9 12 13 14 15 16 17 20
+Arreglo ordenado con TwoQuickSort:
+0 0 1 5
+Arreglo ordenado con TwoQuickSort:
+0 3 3 4 6 7 8 12 12 12 13 14 14 15
+Arreglo ordenado con TwoQuickSort:
+5 6 8 12 13 17
+Arreglo ordenado con TwoQuickSort:
+0 1 3 3 3 5 7 7 7 7 8 9 10 11 12 13 14 15 17 20
+Arreglo ordenado con TwoQuickSort:
+2 13 14 17 20
+Arreglo ordenado con TwoQuickSort:
+2 3 3 5 6 7 10 11 12 14 15 16 16 18
+Arreglo ordenado con TwoQuickSort:
+0 2 4 6 9 10 18 18 18
+Arreglo ordenado con TwoQuickSort:
+0 0 2 3 5 6 6 6 7 9 10 10 11 11 12 13 13 15 15 19

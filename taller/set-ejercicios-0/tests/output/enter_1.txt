@@ -1,0 +1,11 @@
+Se ha insertado el numero 5 en la lista ligada.
+Se ha insertado el numero 7 en la lista ligada.
+Se ha insertado el numero 9 en la lista ligada.
+Se ha insertado el numero 1 en la lista ligada.
+Se ha insertado el numero 4 en la lista ligada.
+Estado de la lista ligada:
+5
+7
+9
+1
+4

@@ -1,0 +1,54 @@
+10
+DICTSORT 6 3
+sol
+mar
+sol
+pan
+rey
+ave
+DICTSORT 1 6
+camino
+DICTSORT 8 4
+vaso
+gato
+nube
+hilo
+dado
+peso
+aves
+kilo
+DICTSORT 3 5
+verde
+fresa
+limon
+DICTSORT 4 7
+montana
+pintura
+ventana
+caminos
+DICTSORT 2 8
+elefante
+vacacion
+DICTSORT 5 2
+es
+un
+mi
+tu
+yo
+DICTSORT 7 3
+sol
+mar
+pan
+rey
+ave
+oso
+uva
+DICTSORT 1 3
+paz
+DICTSORT 6 6
+camino
+parque
+animal
+pintor
+volcan
+manija

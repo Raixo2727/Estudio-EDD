@@ -1,0 +1,26 @@
+Se ha insertado el numero 50 en el ABB.
+Se ha insertado el numero 30 en el ABB.
+Se ha insertado el numero 70 en el ABB.
+Bst
+> root : 50
+> size : 3
+> log  : [50]
+         ├─[70]
+         └─[30]
+Se ha eliminado el numero 30 en el ABB.
+Bst
+> root : 50
+> size : 2
+> log  : [50]
+         ├─[70]
+No se pudo eliminar el numero 100 en el ABB.
+Bst
+> root : 50
+> size : 2
+> log  : [50]
+         ├─[70]
+Se ha eliminado el numero 70 en el ABB.
+Bst
+> root : 50
+> size : 1
+> log  : [50]

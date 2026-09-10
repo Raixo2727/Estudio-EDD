@@ -1,0 +1,19 @@
+Se ha insertado el numero 100 en el ABB.
+Se ha insertado el numero 45 en el ABB.
+Se ha insertado el numero 3 en el ABB.
+Se ha insertado el numero 77 en el ABB.
+Se ha insertado el numero 22 en el ABB.
+Se ha insertado el numero 61 en el ABB.
+Se ha insertado el numero 9 en el ABB.
+Se ha insertado el numero 38 en el ABB.
+Bst
+> root : 100
+> size : 8
+> log  : [100]
+         └─[45]
+            ├─[77]
+            │  └─[61]
+            └─[3]
+               ├─[22]
+               │  ├─[38]
+               │  └─[9]

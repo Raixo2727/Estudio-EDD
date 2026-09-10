@@ -1,0 +1,11 @@
+Se ha invertido la lista ligada :
+Se ha insertado el numero 1 en la lista ligada.
+Se ha insertado el numero 2 en la lista ligada.
+Se ha invertido la lista ligada :
+2
+1
+Se ha insertado el numero 5 en la lista ligada.
+Se ha invertido la lista ligada :
+5
+1
+2

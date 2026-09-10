@@ -1,0 +1,23 @@
+Se ha insertado el numero 1 en la lista ligada.
+Se ha insertado el numero 4 en la lista ligada.
+Se ha insertado el numero 7 en la lista ligada.
+Se ha eliminado el numero 7 en la lista ligada.
+Se ha insertado el numero 6 en la lista ligada.
+Se ha insertado el numero 9 en la lista ligada.
+Se ha invertido la lista ligada:
+9
+6
+4
+1
+Se ha hecho el shift de 2 posiciones en la lista ligada:
+4
+1
+9
+6
+Se ha realizado el split de la lista ligada.
+Primera lista resultante:
+1
+6
+Segunda lista resultante:
+4
+9

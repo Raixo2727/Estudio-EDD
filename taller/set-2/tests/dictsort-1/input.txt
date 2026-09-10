@@ -1,0 +1,28 @@
+6
+DICTSORT 4 5
+verde
+limon
+fresa
+perro
+DICTSORT 3 3
+sol
+oso
+rey
+DICTSORT 5 4
+aire
+onda
+frio
+luna
+hoja
+DICTSORT 2 6
+parque
+camino
+DICTSORT 4 2
+yo
+tu
+ok
+id
+DICTSORT 3 7
+sonrisa
+caminos
+paisaje

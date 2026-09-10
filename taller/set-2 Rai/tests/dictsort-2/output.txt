@@ -1,0 +1,37 @@
+Se han ordenado las 1 palabras con DictSort:
+libro
+Se han ordenado las 3 palabras con DictSort:
+kilo
+pato
+pato
+Se han ordenado las 4 palabras con DictSort:
+ave
+mar
+pan
+rey
+Se han ordenado las 5 palabras con DictSort:
+animal
+camino
+parque
+pintor
+volcan
+Se han ordenado las 2 palabras con DictSort:
+mi
+tu
+Se han ordenado las 6 palabras con DictSort:
+dado
+gato
+hilo
+nube
+peso
+vaso
+Se han ordenado las 3 palabras con DictSort:
+montana
+pintura
+ventana
+Se han ordenado las 5 palabras con DictSort:
+a
+b
+c
+d
+e
