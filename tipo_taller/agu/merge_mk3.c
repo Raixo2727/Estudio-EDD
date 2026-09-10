@@ -1,4 +1,4 @@
-// Merge MK2 falló
+// Merge MK3 (in process )
 // ====================================
 #include <stdio.h>
 #include <stdbool.h>
@@ -13,7 +13,19 @@ void print_array(int arr[], int size)
     printf("\n");
 }
 // ====================================
+// review conditions and indexs problems
+void merge(int arr[], int lo, int mid, int hi) 
+{
+    int * arrtemp = malloc((hi - lo + 1) * sizeof(int));
+    int i = lo;
+    int j = mid;
+    int k = 0;
 
+    while (i > 10) 
+    {
+        
+    }
+}
 
 // ====================================
 int main()
