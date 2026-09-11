@@ -20,7 +20,7 @@
  */
 
 void dictsort(char **words, size_t word_count, size_t word_length, FILE *output_file) {
-    // TODO Parece que no teiene nada que ver con la ABB
+    // TODO Parece que no tiene nada que ver con la ABB
 }
 
 BstNode *bst_search(Bst *bst, int key, FILE *output_file) {
@@ -35,11 +35,15 @@ BstNode *bst_search(Bst *bst, int key, FILE *output_file) {
     }
 
     if (curr == NULL) {
-        fprintf(output_file, "No se ha encontrado el numero %d en el ABB.\n", key);
+        if (output_file != NULL) {
+            fprintf(output_file, "No se ha encontrado el numero %d en el ABB.\n", key);
+        }
         return NULL;
     }
 
-    fprintf(output_file, "Se ha encontrado el numero %d en el ABB.\n", key);
+    if (output_file != NULL) {
+        fprintf(output_file, "Se ha encontrado el numero %d en el ABB.\n", key);
+    }
     return curr;
 }
 
@@ -56,11 +60,12 @@ void bst_insert(Bst *bst, int key, FILE *output_file) {
     if (curr == NULL) {
         bst -> root = new_node;
         bst -> size++;
-        fprintf(output_file, "Se ha insertado el numero %d en el ABB.\n", key);
+        if (output_file != NULL) {
+            fprintf(output_file, "Se ha insertado el numero %d en el ABB.\n", key);
+        }
         return;
     }
 
-    
     while (curr != NULL) {
         if ((new_node -> key) < (curr -> key)) {
             previous = curr;
@@ -79,19 +84,20 @@ void bst_insert(Bst *bst, int key, FILE *output_file) {
     new_node -> parent = previous;
     bst -> size++;
     
-    fprintf(output_file, "Se ha insertado el numero %d en el ABB.\n", key);
+    if (output_file != NULL) {
+        fprintf(output_file, "Se ha insertado el numero %d en el ABB.\n", key);
+    }
 
     return;
 }
 
 void bst_delete(Bst *bst, int key, FILE *output_file) {
     EddError err = EDD_NOERR;
-    // TODO
 
     BstNode* find_node = bst -> root;
     BstNode* parent = NULL;
     while (find_node != NULL && key != (find_node -> key)) {
-        if (key<(find_node -> key)) {
+        if (key < (find_node -> key)) {
             parent = find_node;
             find_node = find_node -> left;
         } else {
@@ -101,16 +107,17 @@ void bst_delete(Bst *bst, int key, FILE *output_file) {
     }
 
     if (find_node == NULL) {
-        fprintf(output_file, "No se pudo eliminar el numero %d en el ABB.\n", key);
+        if (output_file != NULL) {
+            fprintf(output_file, "No se pudo eliminar el numero %d en el ABB.\n", key);
+        }
         return;
     }
 
-    // EL nodo a eliminar no tiene hijos
+    // El nodo a eliminar no tiene hijos
     if (find_node -> left == NULL && find_node -> right == NULL) {
         if (parent == NULL) {
             bst -> root = NULL;
-        }
-        else if (parent -> left == find_node) {
+        } else if (parent -> left == find_node) {
             parent -> left = NULL;
         } else {
             parent -> right = NULL;
@@ -118,7 +125,9 @@ void bst_delete(Bst *bst, int key, FILE *output_file) {
 
         bst_node_destroy(&err, find_node);
         bst->size--;
-        fprintf(output_file, "Se ha eliminado el numero %d en el ABB.\n", key);
+        if (output_file != NULL) {
+            fprintf(output_file, "Se ha eliminado el numero %d en el ABB.\n", key);
+        }
         return;
     }
 
@@ -136,7 +145,9 @@ void bst_delete(Bst *bst, int key, FILE *output_file) {
 
         bst_node_destroy(&err, find_node);
         bst->size--;
-        fprintf(output_file, "Se ha eliminado el numero %d en el ABB.\n", key);
+        if (output_file != NULL) {
+            fprintf(output_file, "Se ha eliminado el numero %d en el ABB.\n", key);
+        }
         return;
 
     } else if (find_node -> left == NULL) {
@@ -152,7 +163,9 @@ void bst_delete(Bst *bst, int key, FILE *output_file) {
 
         bst_node_destroy(&err, find_node);
         bst->size--;
-        fprintf(output_file, "Se ha eliminado el numero %d en el ABB.\n", key);
+        if (output_file != NULL) {
+            fprintf(output_file, "Se ha eliminado el numero %d en el ABB.\n", key);
+        }
         return;
     }
 
@@ -176,13 +189,63 @@ void bst_delete(Bst *bst, int key, FILE *output_file) {
         replace->right->parent = replace_parent;
     }
 
-    // Destruimos el nodo sustituto (no find_node)
     bst_node_destroy(&err, replace);
     bst->size--;
-    fprintf(output_file, "Se ha eliminado el numero %d en el ABB.\n", key);
+    if (output_file != NULL) {
+        fprintf(output_file, "Se ha eliminado el numero %d en el ABB.\n", key);
+    }
     return;
 }
 
+void inorder(BstNode* node, int* arr, int* index) {
+    if (node == NULL) {
+        return;
+    }
+   
+    inorder(node->left, arr, index);
+
+    arr[*index] = node -> key;
+    (*index)++;
+
+    inorder(node->right, arr, index);
+}
+
 void bst_two_sum(Bst *bst, int sum, FILE *output_file) {
-    // TODO
+    if (bst == NULL || bst->size < 2) {
+        if (output_file != NULL) {
+            fprintf(output_file, "No se encontraron numeros que sumen %d.\n", sum);
+        }
+        return;
+    }
+
+    int* arr = calloc(bst->size, sizeof(int));
+    int index = 0;
+
+    inorder(bst->root, arr, &index);
+
+    int left = 0;
+    int right = bst->size - 1;
+
+    while (left < right) {
+        int current_sum = arr[left] + arr[right];
+
+        if (current_sum == sum) {
+            if (output_file != NULL) {
+                fprintf(output_file, "Se encontraron dos numeros que suman %d: %d y %d.\n", sum, arr[left], arr[right]);
+            }
+            free(arr);
+            return;
+        }
+        else if (current_sum < sum) {
+            left++;
+        }
+        else {
+            right--;
+        }
+    }
+    
+    if (output_file != NULL) {
+        fprintf(output_file, "No se encontraron numeros que sumen %d.\n", sum);
+    }
+    free(arr);
 }
