@@ -1,0 +1,30 @@
+Se inserto el numero binario 1110101
+Se inserto el numero binario 11011110000
+Se inserto el numero binario 111
+Se inserto el numero binario 100111110001
+Se inserto el numero binario 1011
+Se inserto el numero binario 1001011100011
+Se inserto el numero binario 1001101001101011
+Se inserto el numero binario 10100100101111
+Se inserto el numero binario 110
+Se inserto el numero binario 10010100011
+Se encontro el numero binario 111 en el ABB
+No se encontro el numero binario 110001000 en el ABB
+No se encontro el numero binario 100110000111 en el ABB
+No se encontro el numero binario 1111011011100111 en el ABB
+Se encontro el numero binario 11011110000 en el ABB
+No se encontro el numero binario 1111110 en el ABB
+No se encontro el numero binario 1100010 en el ABB
+No se encontro el numero binario 1100110 en el ABB
+Se encontro el numero binario 10100100101111 en el ABB
+No se encontro el numero binario 10000000011100 en el ABB
+Se encontro el numero binario 1011 en el ABB
+No se encontro el numero binario 101010001 en el ABB
+No se encontro el numero binario 100100000010 en el ABB
+No se encontro el numero binario 10001000111110 en el ABB
+Se encontro el numero binario 11011110000 en el ABB
+No se encontro el numero binario 11011110011000 en el ABB
+Se encontro el numero binario 111 en el ABB
+No se encontro el numero binario 1001110 en el ABB
+No se encontro el numero binario 1011011111 en el ABB
+Se encontro el numero binario 111 en el ABB

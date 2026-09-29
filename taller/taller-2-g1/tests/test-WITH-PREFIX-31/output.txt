@@ -1,0 +1,30 @@
+Se inserto el numero binario 011100010
+Se inserto el numero binario 01101111
+Se inserto el numero binario 001110101011001
+Se inserto el numero binario 0010
+Se inserto el numero binario 000101
+Se inserto el numero binario 0100010011
+Se inserto el numero binario 010000010
+Se inserto el numero binario 001011110100
+Se inserto el numero binario 0010
+Se inserto el numero binario 011111011000100
+Cantidad de numeros binarios con prefijo 0: 64
+Cantidad de numeros binarios con prefijo 0100: 11
+Cantidad de numeros binarios con prefijo 0100: 11
+Cantidad de numeros binarios con prefijo 011100: 4
+Cantidad de numeros binarios con prefijo 00010: 2
+Cantidad de numeros binarios con prefijo 0001: 3
+Cantidad de numeros binarios con prefijo 01101111: 1
+Cantidad de numeros binarios con prefijo 00: 27
+Cantidad de numeros binarios con prefijo 01: 36
+Cantidad de numeros binarios con prefijo 010001001: 2
+Cantidad de numeros binarios con prefijo 011011: 3
+Cantidad de numeros binarios con prefijo 00101111: 5
+Cantidad de numeros binarios con prefijo 001011: 7
+Cantidad de numeros binarios con prefijo 011: 23
+Cantidad de numeros binarios con prefijo 001: 22
+Cantidad de numeros binarios con prefijo 01000100: 3
+Cantidad de numeros binarios con prefijo 01110001: 2
+Cantidad de numeros binarios con prefijo 0010: 9
+Cantidad de numeros binarios con prefijo 01111101100010: 2
+Cantidad de numeros binarios con prefijo 0010: 9
