@@ -1,0 +1,20 @@
+Se ha insertado el numero 41 en el arbol rojo-negro.
+Se ha insertado el numero 38 en el arbol rojo-negro.
+Se ha insertado el numero 31 en el arbol rojo-negro.
+Arbol 2-4 equivalente al arbol rojo-negro:
+31 38 41
+Se ha insertado el numero 12 en el arbol rojo-negro.
+Se ha insertado el numero 19 en el arbol rojo-negro.
+Se ha insertado el numero 8 en el arbol rojo-negro.
+Arbol 2-4 equivalente al arbol rojo-negro:
+19 38
+8 12
+31
+41
+Se ha eliminado el numero 8 en el arbol rojo-negro.
+No se pudo eliminar el numero 999 en el arbol rojo-negro.
+Arbol 2-4 equivalente al arbol rojo-negro:
+19 38
+12
+31
+41

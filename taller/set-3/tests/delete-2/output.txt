@@ -1,0 +1,24 @@
+Se ha insertado el numero 500 en el arbol rojo-negro.
+Se ha insertado el numero 250 en el arbol rojo-negro.
+Se ha insertado el numero 750 en el arbol rojo-negro.
+Se ha eliminado el numero 250 en el arbol rojo-negro.
+No se pudo eliminar el numero 12345 en el arbol rojo-negro.
+Se ha insertado el numero 125 en el arbol rojo-negro.
+Se ha insertado el numero 375 en el arbol rojo-negro.
+Se ha insertado el numero 625 en el arbol rojo-negro.
+Se ha eliminado el numero 375 en el arbol rojo-negro.
+Se ha eliminado el numero 625 en el arbol rojo-negro.
+Se ha insertado el numero 875 en el arbol rojo-negro.
+Se ha insertado el numero 60 en el arbol rojo-negro.
+Se ha insertado el numero 190 en el arbol rojo-negro.
+Se ha eliminado el numero 750 en el arbol rojo-negro.
+Se ha insertado el numero 310 en el arbol rojo-negro.
+Se ha eliminado el numero 500 en el arbol rojo-negro.
+Bst
+> root : 310
+> size : 5
+> log  : [310]
+         ├─[875]
+         └─[125]
+            ├─[190]
+            └─[60]

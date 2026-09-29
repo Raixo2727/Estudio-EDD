@@ -1,0 +1,58 @@
+Se ha balanceado el ABB.
+Bst
+> root : 23
+> size : 5
+> log  : [23]
+         ├─[47]
+         │  ├─[55]
+         │  └─[36]
+         └─[10]
+Se ha balanceado el ABB.
+Bst
+> root : 18
+> size : 8
+> log  : [18]
+         ├─[41]
+         │  ├─[60]
+         │  │  └─[52]
+         │  └─[29]
+         └─[5]
+           ├─[13]
+           └─[2]
+Se ha balanceado el ABB.
+Bst
+> root : 15
+> size : 4
+> log  : [15]
+         ├─[33]
+         │  ├─[50]
+         └─[7]
+Se ha balanceado el ABB.
+Bst
+> root : 26
+> size : 6
+> log  : [26]
+         ├─[44]
+         │  ├─[63]
+         │  └─[38]
+         └─[1]
+           ├─[9]
+Se ha balanceado el ABB.
+Bst
+> root : 20
+> size : 4
+> log  : [20]
+         ├─[48]
+         └─[3]
+           ├─[12]
+Se ha balanceado el ABB.
+Bst
+> root : 31
+> size : 7
+> log  : [31]
+         ├─[42]
+         │  ├─[58]
+         │  └─[39]
+         └─[17]
+           ├─[24]
+           └─[6]

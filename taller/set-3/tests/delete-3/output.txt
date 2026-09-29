@@ -1,0 +1,29 @@
+Se ha insertado el numero 1000 en el arbol rojo-negro.
+Se ha insertado el numero 500 en el arbol rojo-negro.
+Se ha insertado el numero 1500 en el arbol rojo-negro.
+Se ha eliminado el numero 500 en el arbol rojo-negro.
+No se pudo eliminar el numero 99999 en el arbol rojo-negro.
+Se ha insertado el numero 250 en el arbol rojo-negro.
+Se ha insertado el numero 750 en el arbol rojo-negro.
+Se ha insertado el numero 1250 en el arbol rojo-negro.
+Se ha eliminado el numero 250 en el arbol rojo-negro.
+Se ha insertado el numero 1750 en el arbol rojo-negro.
+Se ha insertado el numero 100 en el arbol rojo-negro.
+Se ha eliminado el numero 100 en el arbol rojo-negro.
+No se pudo eliminar el numero 100 en el arbol rojo-negro.
+Se ha insertado el numero 400 en el arbol rojo-negro.
+Se ha insertado el numero 600 en el arbol rojo-negro.
+Se ha eliminado el numero 750 en el arbol rojo-negro.
+Se ha eliminado el numero 1000 en el arbol rojo-negro.
+Se ha insertado el numero 900 en el arbol rojo-negro.
+Se ha insertado el numero 1100 en el arbol rojo-negro.
+Bst
+> root : 600
+> size : 7
+> log  : [600]
+         ├─[1500]
+         │  ├─[1750]
+         │  └─[1100]
+         │     ├─[1250]
+         │     └─[900]
+         └─[400]
