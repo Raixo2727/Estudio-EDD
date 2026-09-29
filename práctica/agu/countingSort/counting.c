@@ -64,7 +64,7 @@ void CountingSort(int *arr, int size) {
     }
     // 3ER paso
     printf("3ER paso : \n");
-    qprint_array(arr_b, size);
+    print_array(arr_b, size);
 
     for (int i = 0; i < size; i++) {
         arr[i] = arr_b[i];
@@ -82,7 +82,8 @@ int main()
 {
     // int *array;
     // 4, 5, 23, 78, 9, 64, 47, 6, 3, 7, 15, 32
-    int array[] = {4, 5, 23, 78, 9, 64, 47, 6, 3, 7, 15, 32};
+    // 4, 5, 23, 78, 9, 64, 47, 6, 3, 7, 15, 32
+    int array[] = {5,3,4,1,2,6};
     int size = sizeof(array) / sizeof(array[0]);
 
     int maxi = max(array, size);
