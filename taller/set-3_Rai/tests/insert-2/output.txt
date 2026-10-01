@@ -1,0 +1,19 @@
+Se ha insertado el numero 10 en el arbol rojo-negro.
+Se ha insertado el numero 20 en el arbol rojo-negro.
+Se ha insertado el numero 30 en el arbol rojo-negro.
+Se ha insertado el numero 15 en el arbol rojo-negro.
+Se ha insertado el numero 25 en el arbol rojo-negro.
+Se ha insertado el numero 5 en el arbol rojo-negro.
+Se ha insertado el numero 1 en el arbol rojo-negro.
+Se ha insertado el numero 8 en el arbol rojo-negro.
+Bst
+> root : 20
+> size : 8
+> log  : [20]
+         ├─[30]
+         │  └─[25]
+         └─[10]
+            ├─[15]
+            └─[5]
+               ├─[8]
+               └─[1]

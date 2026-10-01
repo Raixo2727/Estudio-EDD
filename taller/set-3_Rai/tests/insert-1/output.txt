@@ -1,0 +1,15 @@
+Se ha insertado el numero 41 en el arbol rojo-negro.
+Se ha insertado el numero 38 en el arbol rojo-negro.
+Se ha insertado el numero 31 en el arbol rojo-negro.
+Se ha insertado el numero 12 en el arbol rojo-negro.
+Se ha insertado el numero 19 en el arbol rojo-negro.
+Se ha insertado el numero 8 en el arbol rojo-negro.
+Bst
+> root : 38
+> size : 6
+> log  : [38]
+         ├─[41]
+         └─[19]
+            ├─[31]
+            └─[12]
+               └─[8]

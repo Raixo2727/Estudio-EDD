@@ -1,0 +1,20 @@
+Se ha insertado el numero 90 en el arbol rojo-negro.
+Se ha insertado el numero 40 en el arbol rojo-negro.
+Se ha insertado el numero 130 en el arbol rojo-negro.
+Se ha eliminado el numero 40 en el arbol rojo-negro.
+No se pudo eliminar el numero 999 en el arbol rojo-negro.
+Se ha insertado el numero 20 en el arbol rojo-negro.
+Se ha insertado el numero 60 en el arbol rojo-negro.
+Se ha eliminado el numero 20 en el arbol rojo-negro.
+Se ha insertado el numero 110 en el arbol rojo-negro.
+Se ha insertado el numero 150 en el arbol rojo-negro.
+Se ha insertado el numero 10 en el arbol rojo-negro.
+Se ha eliminado el numero 130 en el arbol rojo-negro.
+Se ha eliminado el numero 90 en el arbol rojo-negro.
+Bst
+> root : 60
+> size : 4
+> log  : [60]
+         ├─[110]
+         │  ├─[150]
+         └─[10]

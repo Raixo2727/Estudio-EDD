@@ -1,0 +1,35 @@
+Se ha insertado el numero 500 en el arbol rojo-negro.
+Se ha insertado el numero 250 en el arbol rojo-negro.
+Se ha insertado el numero 750 en el arbol rojo-negro.
+Arbol 2-4 equivalente al arbol rojo-negro:
+250 500 750
+Se ha eliminado el numero 250 en el arbol rojo-negro.
+Se ha insertado el numero 125 en el arbol rojo-negro.
+Se ha insertado el numero 375 en el arbol rojo-negro.
+Se ha insertado el numero 625 en el arbol rojo-negro.
+Arbol 2-4 equivalente al arbol rojo-negro:
+500
+125 375
+625 750
+Se ha eliminado el numero 375 en el arbol rojo-negro.
+Se ha eliminado el numero 625 en el arbol rojo-negro.
+Se ha insertado el numero 875 en el arbol rojo-negro.
+Se ha insertado el numero 60 en el arbol rojo-negro.
+Se ha insertado el numero 190 en el arbol rojo-negro.
+Arbol 2-4 equivalente al arbol rojo-negro:
+500
+60 125 190
+750 875
+Se ha eliminado el numero 750 en el arbol rojo-negro.
+Se ha insertado el numero 310 en el arbol rojo-negro.
+Arbol 2-4 equivalente al arbol rojo-negro:
+125 500
+60
+190 310
+875
+Se ha eliminado el numero 500 en el arbol rojo-negro.
+Arbol 2-4 equivalente al arbol rojo-negro:
+125 310
+60
+190
+875
