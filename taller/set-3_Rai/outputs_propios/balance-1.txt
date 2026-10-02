@@ -1,0 +1,19 @@
+Se ha balanceado el ABB.
+Bst
+> root : 2
+> size : 3
+> log  : [2]
+         ├─[3]
+         └─[1]
+Se ha balanceado el ABB.
+Bst
+> root : 4
+> size : 2
+> log  : [4]
+         ├─[5]
+Se ha balanceado el ABB.
+Bst
+> root : 6
+> size : 2
+> log  : [6]
+         ├─[7]

@@ -13,50 +13,55 @@
 
 // balance
 
-void llenador(BstNode** arr, int* index, BstNode* node ) {
+void llenador_array(BstNode** arr, BstNode* node, int* index)  {
+    // recorremos el arreglo, si llegamos a null nos devolvemos
     if (node == NULL) {
         return;
     }
 
-    llenador(arr, index, node -> left);
+    // recorremos full izquierda y derecha, recorriendo el array tambien
+    llenador_array(arr, node -> left, index);
     arr[*index] = node;
     (*index)++;
-    llenador(arr, index, node->right);
+    llenador_array(arr, node-> right, index);
 }
 
-BstNode* armador(BstNode** arr, int inicio, int final, BstNode* padre) {
+BstNode* armar_avl(BstNode** arr, int inicio, int final, BstNode* padre) {
+    // Si los indices coinciden pos matar
     if (inicio > final) {
         return NULL;
     }
     
-    int pivote = inicio + (final - inicio) / 2;
+    // Escogemos el pivote del medio que siempre será la mitad
+    int pivote = inicio + (final - inicio)/2;
 
+    // re asignamos los punteros
     arr[pivote] -> parent = padre;
-    arr [pivote] -> left = armador(arr, inicio, pivote-1, arr[pivote]);
-    arr [pivote] -> right = armador(arr, pivote+1, final, arr[pivote]);
+    arr[pivote] -> left = armar_avl(arr, inicio, pivote-1, arr[pivote]);
+    arr[pivote] -> right = armar_avl(arr, pivote+1, final, arr[pivote]);
 
     return arr[pivote];
 }
 
 
 void balance(Bst* tree, FILE* output_file) {
-    // creamos un arreglo para almacenar punteros a los nodos
-    if (!tree || tree->size == 0) {
-        return;
-    }
-
-    BstNode** arr = calloc(tree -> size, sizeof(BstNode*));
+    BstNode** arr = calloc(tree -> size, sizeof(BstNode*)); 
     int index = 0;
-    llenador(arr, &index, tree -> root);
+    llenador_array(arr, tree->root, &index);
 
     int inicio = 0;
-    int final = tree -> size - 1;
-    tree -> root = armador(arr, inicio, final, NULL);
+    int final = tree->size -1;
+    int nueva_root = inicio + (final - inicio)/2;
+
+
+    armar_avl(arr, inicio, final, NULL);
+    tree -> root = arr[nueva_root];
 
     fprintf(output_file, "Se ha balanceado el ABB.\n");
-    // liberamos la memoria del arreglo
+
     free(arr);
-};
+}
+
 
 void rbt_two_four_equiv(Bst *rbt, FILE *output_file) {
     // TODO
